@@ -9,6 +9,7 @@ Study properties of incidence matrix of the graph
   - (why to use this:)Decomposes matrix X = W^T.H using alternating minimization algorithm. We can use Inductive matrix completion technique [Natarajan and Dhillon 2014](https://academic.oup.com/bioinformatics/article/30/12/i60/385272) to incorporate extra infor(like node features and edge features) while decomposing.
     
   - (disadv:)Works only on matrix with non-negative entries.
+
 *2) Singular value decomposition(SVD):*
 
   - (Why use this:)popular method. Decomposes matrix into 3 matrices.
